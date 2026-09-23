@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brena Ullrich — Portfolio</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Reenie+Beanie&amp;display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #F3ECE2; }
+  * { box-sizing: border-box; }
+  a { color: #5C1B3B; text-decoration: none; }
+  a:hover { color: #847530; }
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+</style>
+</helmet>
+<div style="font-family: Archivo, Helvetica, sans-serif; color: #2A1B20; background: #F3ECE2; min-height: 100vh; overflow-x: hidden;">
+
+  
+
+  <header style="display: flex; align-items: baseline; justify-content: space-between; padding: 26px 48px; background: #FDDCBF; border-bottom: 1px solid rgba(92,27,59,0.16); position: relative; z-index: 20;">
+    <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;">Brena Ullrich</div>
+    <nav style="display: flex; gap: 28px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;">
+      <a href="#work" style="color: #2A1B20;" style-hover="color: #847530;">Work</a>
+      <a href="#case" style="color: #2A1B20;" style-hover="color: #847530;">Case Study</a>
+      <a href="#services" style="color: #2A1B20;" style-hover="color: #847530;">Services</a>
+      <a href="#about" style="color: #2A1B20;" style-hover="color: #847530;">About</a>
+      <a href="mailto:brena.ullrich@gmail.com" style="color: #5C1B3B; border-bottom: 1px solid rgba(92,27,59,0.4);" target="_blank" rel="noopener noreferrer">Contact</a>
+    </nav>
+  </header>
+
+  <sc-if value="{{ isHeroA }}" hint-placeholder-val="{{ true }}">
+  <section data-screen-label="Hero A" style="padding: 76px 48px 92px; position: relative;">
+    <div style="max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr) 460px; gap: 40px; align-items: start;">
+      
+      <div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #847530; margin-bottom: 34px;">Social Media Content Coordinator &nbsp;·&nbsp; Creative Content Strategist</div>
+        
+        <h1 style="font-size: clamp(42px, 5.4vw, 72px); line-height: 1.02; letter-spacing: -0.03em; font-weight: 600; margin: 0 0 26px;"><br>Built for the brand.<br>Made for the feed.</h1>
+        <p style="font-size: 18px; line-height: 1.6; max-width: 46ch; color: rgba(42,27,32,0.78); margin: 0 0 36px; text-wrap: pretty;">I work across strategy and execution, turning brand goals into social-first ideas, then bringing them to life through short-form video, copy, campaigns and creator partnerships.</p><div style="display: flex; gap: 14px; flex-wrap: wrap;">
+          <a href="#work" style="background: #5C1B3B; color: #FDDCBF; padding: 15px 26px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;" style-hover="background: #863C57; color: #FDDCBF;">See the work</a>
+          <a href="mailto:hello@brenaullrich.com" style="border: 1px solid rgba(92,27,59,0.35); color: #5C1B3B; padding: 15px 26px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;" style-hover="background: #FDDCBF; color: #5C1B3B;">Get in touch</a>
+        </div>
+      </div><div style="display: flex; flex-direction: column; align-items: flex-end; gap: 18px; min-width: 300px;">
+        <div style="position: relative; width: 460px; max-width: 100%; height: 600px;">
+          <sc-if value="{{ isCol1 }}" hint-placeholder-val="{{ true }}">
+            <div style="position: absolute; top: 70px; left: 0; width: 250px; height: 400px; background: #F7F1E6; box-shadow: 0 10px 24px rgba(42,27,32,0.14); transform: rotate(-3deg); padding: 70px 26px 0;">
+              <div style="margin-bottom: 22px;">
+                
+                <div style="font-size: 17px; font-weight: 600; color: rgba(42,27,32,0.55);">name</div><div style="font-family: 'Reenie Beanie', cursive; font-size: 27px; line-height: 1; color: #2A1B20; border-bottom: 1px solid rgba(42,27,32,0.45); padding: 2px 0 4px; max-width: 175px;">Brena Ullrich</div>
+              </div>
+              <div style="margin-bottom: 22px;">
+                <div style="font-size: 17px; font-weight: 600; color: rgba(42,27,32,0.55);">role</div>
+                <div style="font-family: 'Reenie Beanie', cursive; font-size: 27px; line-height: 1; color: #2A1B20; border-bottom: 1px solid rgba(42,27,32,0.45); padding: 2px 0 4px; max-width: 175px;">social media&nbsp; coordinator</div>
+              </div>
+              <div style="margin-bottom: 22px;">
+                <div style="font-size: 17px; font-weight: 600; color: rgba(42,27,32,0.55);">specialty</div>
+                <div style="font-family: 'Reenie Beanie', cursive; font-size: 27px; line-height: 1; color: #2A1B20; border-bottom: 1px solid rgba(42,27,32,0.45); padding: 2px 0 4px; max-width: 175px;">content strategy</div>
+              </div>
+              <div style="position: absolute; left: 24px; bottom: 26px; background: #FFFFFF; padding: 5px 8px; display: flex; flex-direction: column; gap: 3px; box-shadow: 0 1px 2px rgba(42,27,32,0.15);">
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 7px; letter-spacing: 0.06em; text-transform: uppercase; color: #2A1B20;">Portfolio &nbsp; 2026</div>
+                <div style="width: 120px; height: 18px; background: repeating-linear-gradient(90deg, #2A1B20 0 2px, transparent 2px 3px, #2A1B20 3px 4px, transparent 4px 7px, #2A1B20 7px 10px, transparent 10px 12px);"></div>
+              </div>
+              <div style="position: absolute; left: 167px; font-family: 'Reenie Beanie', cursive; font-size: 38px; color: #2A1B20; top: 336px">01</div>
+            </div>
+            <div style="position: absolute; top: 190px; left: 330px; width: 130px; height: 180px; background: #FDDCBF; transform: rotate(5deg); box-shadow: 0 8px 18px rgba(42,27,32,0.14); padding: 14px 6px 0 66px; font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; color: #5C1B3B; border-top: 2px dashed rgba(92,27,59,0.35);">
+              <div style="font-size: 13px; font-weight: 500; letter-spacing: 0.04em; line-height: 1.2;">Admit<br>one</div>
+              
+            </div>
+            <div style="position: absolute; top: 44px; left: 2px; z-index: 3; background: #FDDCBF; color: #5C1B3B; padding: 9px 16px; border-radius: 18px; font-size: 16px; box-shadow: 0 3px 8px rgba(42,27,32,0.12); transform: rotate(-4deg)">social strategy</div>
+            
+          </sc-if>
+          <sc-if value="{{ isCol2 }}" hint-placeholder-val="{{ false }}">
+            <div style="position: absolute; top: 80px; left: 10px; width: 310px; height: 380px; transform: rotate(-5deg);">
+              <div style="position: absolute; top: 0; left: 18px; width: 120px; height: 30px; background: #D9C08A; border-radius: 6px 6px 0 0; padding: 7px 12px; font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: #5D4E17;">Content cal.</div>
+              <div style="position: absolute; top: 26px; left: 0; right: 0; bottom: 0; background: #E3CC98; border-radius: 2px 6px 6px 6px; box-shadow: 0 10px 24px rgba(42,27,32,0.16);"></div>
+              <div style="position: absolute; top: 12px; left: 14px; right: 26px; height: 120px; background: #F7F1E6; transform: rotate(3deg); box-shadow: 0 2px 4px rgba(42,27,32,0.1);"></div>
+            </div>
+            <div style="position: absolute; top: 330px; left: 0; width: 230px; background: #FBF8F1; padding: 16px 18px 20px; box-shadow: 0 8px 20px rgba(42,27,32,0.16); transform: rotate(4deg); z-index: 3; background-image: linear-gradient(90deg, transparent 22px, rgba(134,60,87,0.35) 22px 23px, transparent 23px);">
+              <div style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: #847530; margin-bottom: 6px; padding-left: 14px;">Notes to self</div>
+              <div style="padding-left: 14px;">
+                <div style="font-family: 'Reenie Beanie', cursive; font-size: 22px; line-height: 28px; color: #5C1B3B; border-bottom: 1px solid rgba(92,27,59,0.18); white-space: nowrap;">hook in the first second</div>
+                <div style="font-family: 'Reenie Beanie', cursive; font-size: 22px; line-height: 28px; color: #5C1B3B; border-bottom: 1px solid rgba(92,27,59,0.18); white-space: nowrap;">make it feel native</div>
+                <div style="font-family: 'Reenie Beanie', cursive; font-size: 22px; line-height: 28px; color: #5C1B3B; border-bottom: 1px solid rgba(92,27,59,0.18); white-space: nowrap;">post, reply, repeat</div>
+              </div>
+            </div>
+            <div style="position: absolute; top: 150px; left: 330px; width: 130px; background: #FDDCBF; padding: 14px 6px 16px 66px; transform: rotate(5deg); box-shadow: 0 8px 18px rgba(42,27,32,0.14); font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; color: #5C1B3B; border-left: 2px dashed rgba(92,27,59,0.35);">
+              <div style="font-size: 13px; font-weight: 500; line-height: 1.2;">Admit<br>one</div>
+              <div style="margin-top: 8px; line-height: 1.8;">On set<br>Take 04</div>
+            </div>
+            <div style="position: absolute; top: 60px; left: 318px; width: 68px; height: 68px; border-radius: 50%; background: #847530; color: #F3ECE2; display: flex; align-items: center; justify-content: center; text-align: center; font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; line-height: 1.4; transform: rotate(-12deg); box-shadow: 0 4px 10px rgba(42,27,32,0.18); z-index: 3;">No. 01<br>2026</div>
+          </sc-if>
+          <div style="position: absolute; top: 0; left: 66%; margin-left: -60px; width: 120px; z-index: 2; clip-path: inset(0 -90px -90px -90px);">
+            <img ref="{{ stripRef }}" src="images/photobooth-strip.png" alt="Photobooth strip of Brena" style="width: 120px; display: block; transform-origin: 50% 2.4%; filter: drop-shadow(0 12px 18px rgba(42,27,32,0.28));">
+          </div>
+          <div ref="{{ tackRef }}" style="position: absolute; top: -14px; left: 66%; margin-left: -50px; width: 20px; height: 60px; opacity: 0; z-index: 4; transform: rotate(-4deg); filter: drop-shadow(1px 2px 1.5px rgba(42,27,32,0.35));"><svg width="20" height="60" viewBox="0 0 20 60" style="display: block;"><defs><linearGradient id="clipMetal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E4E1DC"></stop><stop offset="0.5" stop-color="#9C9893"></stop><stop offset="1" stop-color="#D2CEC8"></stop></linearGradient></defs><path d="M6.5 18 V47 a3.5 3.5 0 0 0 7 0 V10 a5.5 5.5 0 0 0 -11 0 V50 a7.5 7.5 0 0 0 15 0 V18" fill="none" stroke="url(#clipMetal)" stroke-width="2.2" stroke-linecap="round"></path></svg></div>
+        <div style="position: absolute; top: 424px; left: 312px; z-index: 3; background: #847530; color: #F3ECE2; padding: 9px 16px; border-radius: 18px; font-size: 16px; box-shadow: 0 3px 8px rgba(42,27,32,0.16); transform: rotate(3deg); font-family: Archivo, Helvetica, sans-serif">creative content</div></div>
+        <div style="width: 150px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; line-height: 1.7; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(42,27,32,0.55); text-align: right;">
+          [01] Organic social<br>[02] Short-form video<br>[03] Influencer campaigns
+        </div>
+      </div>
+    </div>
+  </section>
+  </sc-if>
+
+  <sc-if value="{{ isHeroB }}" hint-placeholder-val="{{ false }}">
+  <section data-screen-label="Hero B" style="background: #5C1B3B; color: #FDDCBF; padding: 84px 48px 88px;">
+    <div style="max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr) 460px; gap: 48px; align-items: center;">
+      <div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(253,220,191,0.65); margin-bottom: 52px;">SOCIAL MEDIA COORDINATOR | CONTENT STRATEGIST</div>
+        <h1 style="font-size: clamp(48px, 7vw, 96px); line-height: 0.94; letter-spacing: -0.045em; font-weight: 700; text-transform: uppercase; margin: 0 0 26px;">Brena<br>Ullrich</h1>
+        <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 18px; border-top: 1px solid rgba(253,220,191,0.28); padding-top: 22px;">
+          <p style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 30px; line-height: 1.25; margin: 0; max-width: 22ch;">Built for the brand. Made for the feed.</p>
+          <p style="font-size: 15px; line-height: 1.65; margin: 0; max-width: 34ch; color: rgba(253,220,191,0.82); text-wrap: pretty;">Creative content strategist and social media content coordinator — strategy through to the final post.</p>
+        </div>
+      </div>
+      <div style="position: relative; width: 460px; max-width: 100%; height: 600px;">
+        <sc-if value="{{ isCol1 }}" hint-placeholder-val="{{ true }}">
+          <div style="position: absolute; top: 70px; left: 0; width: 250px; height: 400px; background: #F7F1E6; box-shadow: 0 10px 24px rgba(42,27,32,0.14); transform: rotate(-3deg); padding: 70px 26px 0;">
+            <div style="margin-bottom: 22px;">
+              
+              <div style="font-size: 17px; font-weight: 600; color: rgba(42,27,32,0.55);">name</div><div style="font-family: 'Reenie Beanie', cursive; font-size: 27px; line-height: 1; color: #2A1B20; border-bottom: 1px solid rgba(42,27,32,0.45); padding: 2px 0 4px; max-width: 175px;">Brena Ullrich</div>
+            </div>
+            <div style="margin-bottom: 22px;">
+              <div style="font-size: 17px; font-weight: 600; color: rgba(42,27,32,0.55);">role</div>
+              <div style="font-family: 'Reenie Beanie', cursive; font-size: 27px; line-height: 1; color: #2A1B20; border-bottom: 1px solid rgba(42,27,32,0.45); padding: 2px 0 4px; max-width: 175px;">content coordinator</div>
+            </div>
+            <div style="margin-bottom: 22px;">
+              <div style="font-size: 17px; font-weight: 600; color: rgba(42,27,32,0.55);">specialty</div>
+              <div style="font-family: 'Reenie Beanie', cursive; font-size: 27px; line-height: 1; color: #2A1B20; border-bottom: 1px solid rgba(42,27,32,0.45); padding: 2px 0 4px; max-width: 175px;">short-form video</div>
+            </div>
+            <div style="position: absolute; left: 24px; bottom: 26px; background: #FFFFFF; padding: 5px 8px; display: flex; flex-direction: column; gap: 3px; box-shadow: 0 1px 2px rgba(42,27,32,0.15);">
+              <div style="font-family: 'IBM Plex Mono', monospace; font-size: 7px; letter-spacing: 0.06em; text-transform: uppercase; color: #2A1B20;">Portfolio &nbsp; 2026</div>
+              <div style="width: 120px; height: 18px; background: repeating-linear-gradient(90deg, #2A1B20 0 2px, transparent 2px 3px, #2A1B20 3px 4px, transparent 4px 7px, #2A1B20 7px 10px, transparent 10px 12px);"></div>
+            </div>
+            <div style="position: absolute; left: 167px; font-family: 'Reenie Beanie', cursive; font-size: 38px; color: #2A1B20; top: 336px">01</div>
+          </div>
+          <div style="position: absolute; top: 190px; left: 330px; width: 130px; height: 180px; background: #FDDCBF; transform: rotate(5deg); box-shadow: 0 8px 18px rgba(42,27,32,0.14); padding: 14px 6px 0 66px; font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; color: #5C1B3B; border-top: 2px dashed rgba(92,27,59,0.35);">
+            <div style="font-size: 13px; font-weight: 500; letter-spacing: 0.04em; line-height: 1.2;">Admit<br>one</div>
+            
+          </div>
+          <div style="position: absolute; top: 40px; left: 0; z-index: 3; background: #FDDCBF; color: #5C1B3B; padding: 9px 16px; border-radius: 18px; font-size: 16px; box-shadow: 0 3px 8px rgba(42,27,32,0.12); transform: rotate(-4deg);">behind the feed</div>
+          
+        </sc-if>
+        <sc-if value="{{ isCol2 }}" hint-placeholder-val="{{ false }}">
+          <div style="position: absolute; top: 80px; left: 10px; width: 310px; height: 380px; transform: rotate(-5deg);">
+            <div style="position: absolute; top: 0; left: 18px; width: 120px; height: 30px; background: #D9C08A; border-radius: 6px 6px 0 0; padding: 7px 12px; font-family: 'IBM Plex Mono', monospace; font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: #5D4E17;">Content cal.</div>
+            <div style="position: absolute; top: 26px; left: 0; right: 0; bottom: 0; background: #E3CC98; border-radius: 2px 6px 6px 6px; box-shadow: 0 10px 24px rgba(42,27,32,0.16);"></div>
+            <div style="position: absolute; top: 12px; left: 14px; right: 26px; height: 120px; background: #F7F1E6; transform: rotate(3deg); box-shadow: 0 2px 4px rgba(42,27,32,0.1);"></div>
+          </div>
+          <div style="position: absolute; top: 330px; left: 0; width: 230px; background: #FBF8F1; padding: 16px 18px 20px; box-shadow: 0 8px 20px rgba(42,27,32,0.16); transform: rotate(4deg); z-index: 3; background-image: linear-gradient(90deg, transparent 22px, rgba(134,60,87,0.35) 22px 23px, transparent 23px);">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.1em; text-transform: uppercase; color: #847530; margin-bottom: 6px; padding-left: 14px;">Notes to self</div>
+            <div style="padding-left: 14px;">
+              <div style="font-family: 'Reenie Beanie', cursive; font-size: 22px; line-height: 28px; color: #5C1B3B; border-bottom: 1px solid rgba(92,27,59,0.18); white-space: nowrap;">hook in the first second</div>
+              <div style="font-family: 'Reenie Beanie', cursive; font-size: 22px; line-height: 28px; color: #5C1B3B; border-bottom: 1px solid rgba(92,27,59,0.18); white-space: nowrap;">make it feel native</div>
+              <div style="font-family: 'Reenie Beanie', cursive; font-size: 22px; line-height: 28px; color: #5C1B3B; border-bottom: 1px solid rgba(92,27,59,0.18); white-space: nowrap;">post, reply, repeat</div>
+            </div>
+          </div>
+          <div style="position: absolute; top: 150px; left: 330px; width: 130px; background: #FDDCBF; padding: 14px 6px 16px 66px; transform: rotate(5deg); box-shadow: 0 8px 18px rgba(42,27,32,0.14); font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; color: #5C1B3B; border-left: 2px dashed rgba(92,27,59,0.35);">
+            <div style="font-size: 13px; font-weight: 500; line-height: 1.2;">Admit<br>one</div>
+            <div style="margin-top: 8px; line-height: 1.8;">On set<br>Take 04</div>
+          </div>
+          <div style="position: absolute; top: 60px; left: 318px; width: 68px; height: 68px; border-radius: 50%; background: #847530; color: #F3ECE2; display: flex; align-items: center; justify-content: center; text-align: center; font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.08em; text-transform: uppercase; line-height: 1.4; transform: rotate(-12deg); box-shadow: 0 4px 10px rgba(42,27,32,0.18); z-index: 3;">No. 01<br>2026</div>
+        </sc-if>
+        <div style="position: absolute; top: 0; left: 66%; margin-left: -60px; width: 120px; z-index: 2; clip-path: inset(0 -90px -90px -90px);">
+          <img ref="{{ stripRef }}" src="images/photobooth-strip.png" alt="Photobooth strip of Brena" style="width: 120px; display: block; transform-origin: 50% 2.4%; filter: drop-shadow(0 12px 18px rgba(42,27,32,0.28));">
+        </div>
+        <div ref="{{ tackRef }}" style="position: absolute; top: -14px; left: 66%; margin-left: -50px; width: 20px; height: 60px; opacity: 0; z-index: 4; transform: rotate(-4deg); filter: drop-shadow(1px 2px 1.5px rgba(42,27,32,0.35));"><svg width="20" height="60" viewBox="0 0 20 60" style="display: block;"><defs><linearGradient id="clipMetal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E4E1DC"></stop><stop offset="0.5" stop-color="#9C9893"></stop><stop offset="1" stop-color="#D2CEC8"></stop></linearGradient></defs><path d="M6.5 18 V47 a3.5 3.5 0 0 0 7 0 V10 a5.5 5.5 0 0 0 -11 0 V50 a7.5 7.5 0 0 0 15 0 V18" fill="none" stroke="url(#clipMetal)" stroke-width="2.2" stroke-linecap="round"></path></svg></div>
+      <div style="position: absolute; top: 424px; left: 312px; z-index: 3; background: #847530; color: #F3ECE2; padding: 9px 16px; border-radius: 18px; font-size: 16px; box-shadow: 0 3px 8px rgba(42,27,32,0.16); transform: rotate(3deg); font-family: Archivo, Helvetica, sans-serif">creative content</div></div>
+    </div>
+  </section>
+  </sc-if>
+
+  <div style="background: #847530; color: #F3ECE2; overflow: hidden; white-space: nowrap; padding: 13px 0; border-top: 1px solid rgba(92,27,59,0.2);">
+    <div style="display: inline-block; animation: marquee 34s linear infinite; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;">Content Creation &nbsp;·&nbsp; Creative Concepting ·&nbsp;Paid &amp; Organic Social &nbsp;·&nbsp; Short Form Video &nbsp;&nbsp;·&nbsp; Creator partnerships  &nbsp;·&nbsp; TikTok &nbsp;·&nbsp; Instagram &amp; Reels &nbsp;·&nbsp; Carousels &nbsp;·&nbsp; Creator partnerships &nbsp;·</div>
+  </div>
+
+  <section id="work" data-screen-label="Video reel" style="padding: 88px 48px {{ reelPadB }}; background: {{ reelBg }}; color: {{ reelInk }};">
+    <div style="max-width: 1280px; margin: 0 auto;">
+      <div style="display: flex; align-items: baseline; justify-content: space-between; border-bottom: 1px solid {{ reelLine }}; padding-bottom: 16px; margin-bottom: 44px;">
+        <h2 style="font-size: 38px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; margin: 0;">Short-form video</h2>
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: {{ reelMuted }};">[6] Selected &nbsp;/&nbsp; Click to play</span>
+      </div>
+
+      <sc-if value="{{ isReelA }}" hint-placeholder-val="{{ true }}">
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px;">
+        <div onClick="{{ open }}" data-title="Bus ASMR" data-meta="VIA Metropolitan Transit" data-src="videos/bus-asmr.mp4" style="cursor: pointer;">
+          <div style="aspect-ratio: 9 / 16; background: #E8E0D2; border: 1px solid {{ reelLine }}; position: relative; overflow: hidden;" style-hover="border-color: {{ reelHover }};">
+            <video src="videos/bus-asmr.mp4" autoplay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+          </div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; margin-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase;">
+            <span>Bus ASMR</span><span style="color: {{ reelMuted }};">VIA Metropolitan Transit</span>
+          </div>
+        </div>
+        <div onClick="{{ open }}" data-title="Back to School" data-meta="Sunset and Co." data-src="videos/back-to-school.mp4" style="cursor: pointer;">
+          <div style="aspect-ratio: 9 / 16; background: #E8E0D2; border: 1px solid {{ reelLine }}; position: relative; overflow: hidden;" style-hover="border-color: {{ reelHover }};">
+            <video src="videos/back-to-school.mp4" autoplay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+          </div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; margin-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase;">
+            <span>Back to School</span><span style="color: {{ reelMuted }};">Sunset and Co.</span>
+          </div>
+        </div>
+        <div onClick="{{ open }}" data-title="Owner Favorites" data-meta="Capri" data-src="videos/capri-owner-favorites.mp4" style="cursor: pointer;">
+          <div style="aspect-ratio: 9 / 16; background: #E8E0D2; border: 1px solid {{ reelLine }}; position: relative; overflow: hidden;" style-hover="border-color: {{ reelHover }};">
+            <video src="videos/capri-owner-favorites.mp4" autoplay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+          </div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; margin-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase;">
+            <span>Owner Favorites</span><span style="color: {{ reelMuted }};">Capri</span>
+          </div>
+        </div>
+        <div onClick="{{ open }}" data-title="Tablescape Reel" data-meta="Sunset and Co." data-src="videos/tablescape-reel.mp4" style="cursor: pointer;">
+          <div style="aspect-ratio: 9 / 16; background: #E8E0D2; border: 1px solid {{ reelLine }}; position: relative; overflow: hidden;" style-hover="border-color: {{ reelHover }};">
+            <video src="videos/tablescape-reel.mp4" autoplay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+          </div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; margin-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase;">
+            <span>Tablescape Reel</span><span style="color: {{ reelMuted }};">Sunset and Co.</span>
+          </div>
+        </div>
+        <div onClick="{{ open }}" data-title="Link Reel" data-meta="VIA Metropolitan Transit" data-src="videos/link-reel.mp4" style="cursor: pointer;">
+          <div style="aspect-ratio: 9 / 16; background: #E8E0D2; border: 1px solid {{ reelLine }}; position: relative; overflow: hidden;" style-hover="border-color: {{ reelHover }};">
+            <video src="videos/link-reel.mp4" autoplay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+          </div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; margin-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase;">
+            <span>Link Reel</span><span style="color: {{ reelMuted }};">VIA Metropolitan Transit</span>
+          </div>
+        </div>
+        <div onClick="{{ open }}" data-title="Outfit Reel" data-meta="Capri" data-src="videos/outfit-reel.mp4" style="cursor: pointer;">
+          <div style="aspect-ratio: 9 / 16; background: #E8E0D2; border: 1px solid {{ reelLine }}; position: relative; overflow: hidden;" style-hover="border-color: {{ reelHover }};">
+            <video src="videos/outfit-reel.mp4" autoplay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+          </div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; margin-top: 12px; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase;">
+            <span>Outfit Reel</span><span style="color: {{ reelMuted }};">Capri</span>
+          </div>
+        </div>
+      </div>
+      </sc-if>
+      
+
+      <sc-if value="{{ isReelB }}" hint-placeholder-val="{{ false }}">
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px 26px; align-items: start;">
+        <div onClick="{{ open }}" data-title="Bus ASMR" data-meta="VIA Metropolitan Transit" data-src="videos/bus-asmr.mp4" style="cursor: pointer; grid-column: span 2;">
+          <div style="aspect-ratio: 3 / 4; background: #E8E0D2; border: 1px solid {{ reelLine }}; position: relative; overflow: hidden;" style-hover="border-color: {{ reelHover }};">
+            <video src="videos/bus-asmr.mp4" autoplay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+          </div>
+          <div style="margin-top: 14px; display: flex; justify-content: space-between; gap: 16px;">
+            <div>
+              <div style="font-size: 22px; font-weight: 600; letter-spacing: -0.01em;">Bus ASMR</div>
+              <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: {{ reelMuted }}; margin-top: 6px;">VIA Metropolitan Transit</div>
+            </div>
+          </div>
+        </div>
+        <div onClick="{{ open }}" data-title="Back to School" data-meta="Sunset and Co." data-src="videos/back-to-school.mp4" style="cursor: pointer; margin-top: 42px;">
+          <div style="aspect-ratio: 9 / 16; background: #E8E0D2; border: 1px solid {{ reelLine }}; position: relative; overflow: hidden;" style-hover="border-color: {{ reelHover }};">
+            <video src="videos/back-to-school.mp4" autoplay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+          </div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; margin-top: 12px;">Back to School<br><span style="color: {{ reelMuted }};">Sunset and Co.</span></div>
+        </div>
+        <div onClick="{{ open }}" data-title="Owner Favorites" data-meta="Capri" data-src="videos/capri-owner-favorites.mp4" style="cursor: pointer;">
+          <div style="aspect-ratio: 9 / 16; background: #E8E0D2; border: 1px solid {{ reelLine }}; position: relative; overflow: hidden;" style-hover="border-color: {{ reelHover }};">
+            <video src="videos/capri-owner-favorites.mp4" autoplay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+          </div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; margin-top: 12px;">Owner Favorites<br><span style="color: {{ reelMuted }};">Capri</span></div>
+        </div>
+        <div onClick="{{ open }}" data-title="Tablescape Reel" data-meta="Sunset and Co." data-src="videos/tablescape-reel.mp4" style="cursor: pointer; margin-top: 26px;">
+          <div style="aspect-ratio: 9 / 16; background: #E8E0D2; border: 1px solid {{ reelLine }}; position: relative; overflow: hidden;" style-hover="border-color: {{ reelHover }};">
+            <video src="videos/tablescape-reel.mp4" autoplay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+          </div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; margin-top: 12px;">Tablescape Reel<br><span style="color: {{ reelMuted }};">Sunset and Co.</span></div>
+        </div>
+        <div onClick="{{ open }}" data-title="Link Reel" data-meta="VIA Metropolitan Transit" data-src="videos/link-reel.mp4" style="cursor: pointer;">
+          <div style="aspect-ratio: 9 / 16; background: #E8E0D2; border: 1px solid {{ reelLine }}; position: relative; overflow: hidden;" style-hover="border-color: {{ reelHover }};">
+            <video src="videos/link-reel.mp4" autoplay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+          </div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; margin-top: 12px;">Link Reel<br><span style="color: {{ reelMuted }};">VIA Metropolitan Transit</span></div>
+        </div>
+        <div onClick="{{ open }}" data-title="Outfit Reel" data-meta="Capri" data-src="videos/outfit-reel.mp4" style="cursor: pointer; grid-column: span 2; margin-top: 26px;">
+          <div style="aspect-ratio: 3 / 4; background: #E8E0D2; border: 1px solid {{ reelLine }}; position: relative; overflow: hidden;" style-hover="border-color: {{ reelHover }};">
+            <video src="videos/outfit-reel.mp4" autoplay="{{ true }}" loop="{{ true }}" muted="{{ true }}" playsInline="{{ true }}" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+          </div>
+          <div style="margin-top: 14px; display: flex; justify-content: space-between; gap: 16px;">
+            <div>
+              <div style="font-size: 22px; font-weight: 600; letter-spacing: -0.01em;">Outfit Reel</div>
+              <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: {{ reelMuted }}; margin-top: 6px;">Capri</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </sc-if>
+    </div>
+  </section>
+  
+
+  <section id="services" data-screen-label="Services" style="background: #FDDCBF; padding: 88px 48px;">
+    <div style="max-width: 1280px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 56px;">
+        <div>
+          <h2 style="font-size: 38px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; margin: 0 0 18px; color: #5C1B3B;">What I do</h2>
+          <p style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 24px; line-height: 1.3; color: #5C1B3B; margin: 0; max-width: 24ch;">Content, calendar and creators — usually all three at once.</p>
+        </div>
+        <div style="display: grid; gap: 0;">
+          <div style="display: grid; grid-template-columns: 56px 1fr; gap: 20px; padding: 24px 0; border-top: 1px solid rgba(92,27,59,0.28);">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: rgba(92,27,59,0.65); padding-top: 5px;">[01]</div>
+            <div>
+              <div style="font-size: 21px; font-weight: 600; margin-bottom: 7px; color: #2A1B20;">Short-form video production</div>
+              <p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(42,27,32,0.75); max-width: 60ch;">Concepting, scripting, filming and editing vertical video for TikTok, Reels and Shorts. Hooks tested, captions and covers included.</p>
+            </div>
+          </div>
+          <div style="display: grid; grid-template-columns: 56px 1fr; gap: 20px; padding: 24px 0; border-top: 1px solid rgba(92,27,59,0.28);">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: rgba(92,27,59,0.65); padding-top: 5px;">[02]</div>
+            <div>
+              <div style="font-size: 21px; font-weight: 600; margin-bottom: 7px; color: #2A1B20;">Creative concepting, static &amp; carousel</div>
+              <p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(42,27,32,0.75); max-width: 60ch;">A big part of what I do: turning a brand goal into an idea, then building it out as grid posts, carousels and story sets — structure, copy and art direction included. Samples available on request.</p>
+            </div>
+          </div>
+          <div style="display: grid; grid-template-columns: 56px 1fr; gap: 20px; padding: 24px 0; border-top: 1px solid rgba(92,27,59,0.28);">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: rgba(92,27,59,0.65); padding-top: 5px;">[03]</div>
+            <div>
+              <div style="font-size: 21px; font-weight: 600; margin-bottom: 7px; color: #2A1B20;">Organic social management</div>
+              <p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(42,27,32,0.75); max-width: 60ch;">Content calendars, publishing, community management and monthly reporting across platforms.</p>
+            </div>
+          </div>
+          <div style="display: grid; grid-template-columns: 56px 1fr; gap: 20px; padding: 24px 0; border-top: 1px solid rgba(92,27,59,0.28);">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: rgba(92,27,59,0.65); padding-top: 5px;">[04]</div>
+            <div>
+              <div style="font-size: 21px; font-weight: 600; margin-bottom: 7px; color: #2A1B20;">Influencer campaigns</div>
+              <p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(42,27,32,0.75); max-width: 60ch;">Sourcing and vetting creators, briefs, contracts and usage rights, product seeding, approvals and performance wrap-ups.</p>
+            </div>
+          </div>
+          <div style="display: grid; grid-template-columns: 56px 1fr; gap: 20px; padding: 24px 0; border-top: 1px solid rgba(92,27,59,0.28); border-bottom: 1px solid rgba(92,27,59,0.28);">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: rgba(92,27,59,0.65); padding-top: 5px;">[05]</div>
+            <div>
+              <div style="font-size: 21px; font-weight: 600; margin-bottom: 7px; color: #2A1B20;">Content coordination</div>
+              <p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(42,27,32,0.75); max-width: 60ch;">Shoot planning, asset libraries, approval workflows and keeping every stakeholder on the same version.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section data-screen-label="Metrics" style="background: #5D4E17; color: #F3ECE2; padding: 76px 48px;">
+    <div style="max-width: 1280px; margin: 0 auto;">
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(243,236,226,0.6); margin-bottom: 42px;">Results — last 12 months</div>
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px;">
+        <div style="border-top: 1px solid rgba(243,236,226,0.3); padding-top: 18px;">
+          <div style="font-size: 58px; font-weight: 600; letter-spacing: -0.03em; line-height: 1;">40M</div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(243,236,226,0.7); margin-top: 10px;">ORGANIC IMPRESSIONS</div>
+        </div>
+        <div style="border-top: 1px solid rgba(243,236,226,0.3); padding-top: 18px;">
+          <div style="font-size: 58px; font-weight: 600; letter-spacing: -0.03em; line-height: 1;">+104%</div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(243,236,226,0.7); margin-top: 10px;">Net audience growth</div>
+        </div>
+        <div style="border-top: 1px solid rgba(243,236,226,0.3); padding-top: 18px;">
+          <div style="font-size: 58px; font-weight: 600; letter-spacing: -0.03em; line-height: 1;">10+</div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(243,236,226,0.7); margin-top: 10px;">accounts managed</div>
+        </div>
+        <div style="border-top: 1px solid rgba(243,236,226,0.3); padding-top: 18px;">
+          <div style="font-size: 58px; font-weight: 600; letter-spacing: -0.03em; line-height: 1;">400+</div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(243,236,226,0.7); margin-top: 10px;">Videos created</div>
+        </div>
+      </div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; color: rgba(243,236,226,0.5); margin-top: 34px;">Campaign-level numbers and case studies in my resume — happy to walk through them.</div>
+    </div>
+  </section>
+
+  <section id="case" data-screen-label="Case Study" style="padding: 92px 48px; border-bottom: 1px solid {{ thLine }}; background: {{ caseBg }}; color: {{ thInk }};">
+    <div style="max-width: 1280px; margin: 0 auto;">
+      <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 20px; flex-wrap: wrap; border-bottom: 1px solid {{ thLine }}; padding-bottom: 16px; margin-bottom: 44px;">
+        <h2 style="font-size: 38px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; margin: 0;">Case study</h2>
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: {{ thMuted }};">VIA Metropolitan Transit &nbsp;/&nbsp; Oct 2025 – Aug 2026</span>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 64px; align-items: start;">
+        <div>
+          <h3 style="font-size: 44px; line-height: 1.05; letter-spacing: -0.025em; font-weight: 600; margin: 0 0 28px; text-wrap: balance;">Making Public Transit Content People <span style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400;">Actually Watch</span></h3>
+          <div style="display: grid; grid-template-columns: 96px 1fr; gap: 8px 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; line-height: 1.6; letter-spacing: 0.04em; border-top: 1px solid {{ thLine }}; border-bottom: 1px solid {{ thLine }}; padding: 16px 0; margin-bottom: 34px;">
+            <span style="text-transform: uppercase; color: {{ thOlive }};">Role</span><span>Social Media &amp; Content Specialist (agency partner)</span>
+            <span style="text-transform: uppercase; color: {{ thOlive }};">Platforms</span><span>Facebook, Instagram, X</span>
+          </div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: {{ thLabel }}; margin-bottom: 10px;">The Challenge</div>
+          <p style="font-size: 17px; line-height: 1.65; margin: 0 0 30px; max-width: 56ch; color: {{ thBody85 }}; text-wrap: pretty;">VIA needed content that shared essential rider information while also engaging the broader San Antonio community, not just current riders.</p>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: {{ thLabel }}; margin-bottom: 10px;">What I Did</div>
+          <p style="font-size: 17px; line-height: 1.65; margin: 0; max-width: 56ch; color: {{ thBody85 }}; text-wrap: pretty;">I led all short-form video, from concept to edit, and managed the content calendar, shoot coordination, trend strategy, and community management. I turned service updates and rider tips into Reels that were quick to watch and yet still informative.</p>
+        </div>
+        <div style="background: #FDDCBF; padding: 36px 36px 32px;">
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #5C1B3B; margin-bottom: 8px;">The Results (Year over Year)</div>
+          <div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: 16px; padding: 18px 0; border-top: 1px solid rgba(92,27,59,0.25);">
+            <div><div style="font-size: 15px; font-weight: 600; color: #2A1B20;">Impressions</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: rgba(42,27,32,0.6); margin-top: 4px;">25.1M</div></div>
+            <div style="font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1; color: #5C1B3B;">+175%</div>
+          </div>
+          <div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: 16px; padding: 18px 0; border-top: 1px solid rgba(92,27,59,0.25);">
+            <div><div style="font-size: 15px; font-weight: 600; color: #2A1B20;">Clicks</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: rgba(42,27,32,0.6); margin-top: 4px;">190K</div></div>
+            <div style="font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1; color: #5C1B3B;">+105%</div>
+          </div>
+          <div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: 16px; padding: 18px 0; border-top: 1px solid rgba(92,27,59,0.25);">
+            <div><div style="font-size: 15px; font-weight: 600; color: #2A1B20;">Engagements</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: rgba(42,27,32,0.6); margin-top: 4px;">457K</div></div>
+            <div style="font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1; color: #5C1B3B;">+93%</div>
+          </div>
+          <div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: 16px; padding: 18px 0; border-top: 1px solid rgba(92,27,59,0.25);">
+            <div><div style="font-size: 15px; font-weight: 600; color: #2A1B20;">Video views</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: rgba(42,27,32,0.6); margin-top: 4px;">1.3M</div></div>
+            <div style="font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1; color: #5C1B3B;">+81%</div>
+          </div>
+          <div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: 16px; padding: 18px 0; border-top: 1px solid rgba(92,27,59,0.25);">
+            <div><div style="font-size: 15px; font-weight: 600; color: #2A1B20;">Net audience growth</div></div>
+            <div style="font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1; color: #5C1B3B;">+104%</div>
+          </div>
+          <p style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 24px; line-height: 1.3; color: #5C1B3B; margin: 0; padding-top: 22px; border-top: 1px solid rgba(92,27,59,0.25); text-wrap: pretty;">All of this came with only 3.5% more posts. The growth came from better content, not more of it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" data-screen-label="About" style="padding: 92px 48px; background: {{ aboutBg }}; color: {{ thInk }};">
+    <div style="max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: 340px 1fr; gap: 64px; align-items: start;">
+      <div>
+        <div style="aspect-ratio: 1; border: 1px solid rgba(92,27,59,0.2); overflow: hidden; background: #E8E0D2;">
+          <img src="images/brena-headshot.webp" alt="Brena Ullrich" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+        </div>
+      </div>
+      <div>
+        <h2 style="font-size: 38px; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; margin: 0 0 26px;">About me</h2>
+        <p style="font-size: 18px; line-height: 1.55; margin: 0 0 20px; max-width: 58ch; text-wrap: pretty">Hi, I’m Brena, a creative content strategist and social media content coordinator with a love for good ideas, strong visuals, and content that actually feels native to the internet.</p>
+        <p style="font-size: 16px; line-height: 1.7; color: {{ thBody78 }}; margin: 0 0 20px; max-width: 62ch; text-wrap: pretty;">I work across strategy and execution, turning brand goals into social-first ideas and then bringing them to life through short-form video, copy, campaigns, creator partnerships, and content production. I’m especially drawn to work that finds the sweet spot between what a brand wants to say and what people actually want to watch.</p>
+        <p style="font-size: 16px; line-height: 1.7; color: {{ thBody78 }}; margin: 0 0 36px; max-width: 62ch; text-wrap: pretty;">Currently, I work agency-side across a mix of brands and industries, which means I’m constantly switching between audiences, voices, trends, and creative challenges. Whether I’m building out a campaign, directing a shoot, editing a Reel, managing Influencer partnerships, or digging into performance, I like being involved from the first idea through the final post.</p>
+        <div style="display: flex; gap: 34px; flex-wrap: wrap; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; border-top: 1px solid {{ thLine }}; padding-top: 24px;">
+          <a href="mailto:brena.ullrich@gmail.com" style="color: {{ thAccent }};" target="_blank" rel="noopener noreferrer">brena.ullrich@gmail.com</a>
+          
+          
+          <a href="https://www.linkedin.com/in/brenaullrich/" style="color: {{ thInk2 }};" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer style="background: #5C1B3B; color: #FDDCBF; padding: 64px 48px 40px;">
+    <div style="max-width: 1280px; margin: 0 auto;">
+      <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; flex-wrap: wrap;">
+        <div style="font-size: 54px; font-weight: 600; letter-spacing: -0.03em; line-height: 1;">Let's make something.</div>
+        <a href="mailto:brena.ullrich@gmail.com" style="background: #FDDCBF; color: #5C1B3B; padding: 16px 30px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;" style-hover="background: #F3ECE2; color: #5C1B3B;" target="_blank" rel="noopener noreferrer">brena.ullrich@gmail.com</a>
+      </div>
+      <div style="display: flex; justify-content: space-between; gap: 20px; margin-top: 54px; padding-top: 18px; border-top: 1px solid rgba(253,220,191,0.28); font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(253,220,191,0.65);">
+        <span>Brena Ullrich — Social Media Content Coordinator</span>
+        <span>Portfolio 2026</span>
+      </div>
+    </div>
+  </footer>
+
+  <sc-if value="{{ isLocked }}" hint-placeholder-val="{{ false }}">
+  <div style="position: fixed; inset: 0; z-index: 100; background: #5C1B3B; color: #FDDCBF; display: flex; align-items: center; justify-content: center; padding: 32px;">
+    <form onSubmit="{{ submitPw }}" style="width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 22px;">
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(253,220,191,0.7);">Portfolio 2026</div>
+      <div style="font-size: 56px; font-weight: 700; letter-spacing: -0.04em; line-height: 0.95; text-transform: uppercase;">Brena<br>Ullrich</div>
+      <div style="font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 24px; line-height: 1.3;">Built for the brand. Made for the feed.</div>
+      <div style="display: flex; flex-direction: column; gap: 10px; border-top: 1px solid rgba(253,220,191,0.3); padding-top: 22px;">
+        <label for="pw" style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;">Password</label>
+        <div style="display: flex; gap: 8px;">
+          <input id="pw" type="password" autoFocus="{{ true }}" value="{{ pw }}" onChange="{{ onPw }}" style="flex: 1; min-width: 0; background: transparent; border: 1px solid rgba(253,220,191,0.5); color: #FDDCBF; padding: 14px 16px; font-family: 'IBM Plex Mono', monospace; font-size: 14px; letter-spacing: 0.08em; outline: none;">
+          <button type="submit" style="background: #FDDCBF; color: #5C1B3B; border: none; padding: 14px 22px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; cursor: pointer;">Enter</button>
+        </div>
+        <sc-if value="{{ pwError }}" hint-placeholder-val="{{ false }}">
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.06em; color: #FDDCBF;">That's not it. Try again.</div>
+        </sc-if>
+      </div>
+    </form>
+  </div>
+  </sc-if>
+
+  <sc-if value="{{ isOpen }}" hint-placeholder-val="{{ false }}">
+  <div onClick="{{ close }}" style="position: fixed; inset: 0; background: rgba(42,27,32,0.9); z-index: 80; display: flex; align-items: center; justify-content: center; padding: 40px;">
+    <div onClick="{{ stop }}" style="display: flex; gap: 34px; align-items: stretch;">
+      <div style="width: 300px; height: 533px; border: 1px solid rgba(253,220,191,0.4); overflow: hidden; background: #1B1215;">
+        <video src="{{ openSrc }}" controls="{{ true }}" autoplay="{{ true }}" loop="{{ true }}" playsInline="{{ true }}" style="width: 100%; height: 100%; object-fit: contain; display: block;"></video>
+      </div>
+      <div style="color: #FDDCBF; max-width: 300px; align-self: center;">
+        <div style="font-size: 30px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.15;">{{ openTitle }}</div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(253,220,191,0.7); margin-top: 14px;">{{ openMeta }}</div>
+        <button onClick="{{ close }}" style="margin-top: 30px; background: transparent; border: 1px solid rgba(253,220,191,0.5); color: #FDDCBF; padding: 12px 22px; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; cursor: pointer;">Close</button>
+      </div>
+    </div>
+  </div>
+  </sc-if>
+
+</div></x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;heroVariant&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;A&quot;,&quot;B&quot;],&quot;default&quot;:&quot;B&quot;,&quot;tsType&quot;:&quot;'A' | 'B'&quot;,&quot;section&quot;:&quot;Variants&quot;},&quot;reelVariant&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;A&quot;,&quot;B&quot;],&quot;default&quot;:&quot;A&quot;,&quot;tsType&quot;:&quot;'A' | 'B'&quot;,&quot;section&quot;:&quot;Variants&quot;}}">
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { hero: 'B', reel: props.reelVariant || 'A', collage: '1', open: null, unlocked: (() => { try { return sessionStorage.getItem('bu_portfolio_unlocked') === '1'; } catch (e) { return false; } })(), pw: '', pwError: false };
+  }
+  stripRef = React.createRef();
+  tackRef = React.createRef();
+  componentDidMount() {
+    this.enforceMuted();
+    this.animateStrip();
+  }
+  animateStrip() {
+    const el = this.stripRef.current;
+    if (!this.state.unlocked || !el || !el.animate || el.__animated) return;
+    el.__animated = true;
+    const drop = el.animate([
+      { transform: 'translateY(-102%) rotate(0deg)' },
+      { transform: 'translateY(-60%) rotate(0deg)', offset: 0.35 },
+      { transform: 'translateY(-60%) rotate(0deg)', offset: 0.5 },
+      { transform: 'translateY(4%) rotate(-3.5deg)', offset: 0.85 },
+      { transform: 'translateY(0) rotate(-2deg)' }
+    ], { duration: 2200, easing: 'cubic-bezier(.3,.7,.3,1)', fill: 'both' });
+    el.animate([
+      { filter: 'brightness(2.4) contrast(0.35) sepia(0.4) drop-shadow(0 12px 18px rgba(42,27,32,0.28))' },
+      { filter: 'brightness(1.4) contrast(0.7) sepia(0.3) drop-shadow(0 12px 18px rgba(42,27,32,0.28))', offset: 0.5 },
+      { filter: 'brightness(1) contrast(1) sepia(0) drop-shadow(0 12px 18px rgba(42,27,32,0.28))' }
+    ], { duration: 3600, delay: 900, easing: 'ease-out', fill: 'both' });
+    const tack = this.tackRef.current;
+    drop.onfinish = () => {
+      if (!tack) return;
+      const pin = tack.animate([
+        { opacity: 0, transform: 'translate(-26px, -46px) rotate(-28deg)' },
+        { opacity: 1, transform: 'translate(0, 4px) rotate(-2deg)', offset: 0.7 },
+        { opacity: 1, transform: 'translate(0, -1px) rotate(-5deg)', offset: 0.88 },
+        { opacity: 1, transform: 'translate(0, 0) rotate(-4deg)' }
+      ], { duration: 650, easing: 'cubic-bezier(.4,0,.2,1)', fill: 'both' });
+      pin.onfinish = () => {
+        el.animate([
+          { transform: 'translateY(2px) rotate(-2.6deg)' },
+          { transform: 'translateY(0) rotate(-2deg)' }
+        ], { duration: 300, easing: 'ease-out', fill: 'forwards' }).onfinish = () => {
+          el.animate([
+            { transform: 'rotate(-2deg)' },
+            { transform: 'rotate(-0.8deg)' },
+            { transform: 'rotate(-2deg)' }
+          ], { duration: 5200, easing: 'ease-in-out', iterations: Infinity });
+        };
+      };
+    };
+  }
+  componentDidUpdate() {
+    this.enforceMuted();
+    this.animateStrip();
+  }
+  enforceMuted() {
+    document.querySelectorAll('video[loop]').forEach(v => {
+      if (v.hasAttribute('controls')) {
+        if (v.paused) {
+          v.play().catch(() => { v.muted = true; v.play().catch(() => {}); });
+        }
+      } else {
+        v.muted = true;
+        v.play().catch(() => {});
+      }
+    });
+  }
+  btn(active) {
+    return {
+      padding: '5px 9px', cursor: 'pointer', font: 'inherit', letterSpacing: '0.08em',
+      border: '1px solid ' + (active ? '#5C1B3B' : 'rgba(92,27,59,0.25)'),
+      background: active ? '#5C1B3B' : 'transparent',
+      color: active ? '#FDDCBF' : '#2A1B20'
+    };
+  }
+  renderVals() {
+    const hero = this.state.hero, reel = this.state.reel, open = this.state.open;
+    return {
+      isHeroA: hero === 'A', isHeroB: hero === 'B',
+      isReelA: reel === 'A', isReelB: reel === 'B',
+      heroA: () => this.setState({ hero: 'A' }),
+      heroB: () => this.setState({ hero: 'B' }),
+      reelA: () => this.setState({ reel: 'A' }),
+      reelB: () => this.setState({ reel: 'B' }),
+      heroABtn: this.btn(hero === 'A'), heroBBtn: this.btn(hero === 'B'),
+      reelABtn: this.btn(reel === 'A'), reelBBtn: this.btn(reel === 'B'),
+      ...(() => {
+        const dark = hero === 'B';
+        const L = { reelBg: 'transparent', reelInk: 'inherit', reelMuted: 'rgba(42,27,32,0.55)', reelLine: 'rgba(92,27,59,0.2)', reelHover: '#5C1B3B', reelPadB: '20px',
+          caseBg: 'transparent', aboutBg: 'transparent', thInk: 'inherit', thLine: 'rgba(92,27,59,0.2)', thMuted: 'rgba(42,27,32,0.55)', thOlive: '#847530', thLabel: 'rgba(92,27,59,0.7)', thBody85: 'rgba(42,27,32,0.85)', thBody78: 'rgba(42,27,32,0.78)', thAccent: '#5C1B3B', thInk2: '#2A1B20' };
+        const D = { reelBg: '#4A1631', reelInk: '#FDDCBF', reelMuted: 'rgba(253,220,191,0.68)', reelLine: 'rgba(253,220,191,0.22)', reelHover: '#FDDCBF', reelPadB: '88px',
+          caseBg: '#5C1B3B', aboutBg: '#4A1631', thInk: '#FDDCBF', thLine: 'rgba(253,220,191,0.22)', thMuted: 'rgba(253,220,191,0.68)', thOlive: '#E2CF8E', thLabel: 'rgba(253,220,191,0.75)', thBody85: 'rgba(253,220,191,0.88)', thBody78: 'rgba(253,220,191,0.85)', thAccent: '#FDDCBF', thInk2: '#FDDCBF' };
+        return dark ? D : L;
+      })(),
+      isCol1: this.state.collage === '1', isCol2: this.state.collage === '2',
+      col1: () => this.setState({ collage: '1' }), col2: () => this.setState({ collage: '2' }),
+      col1Btn: this.btn(this.state.collage === '1'), col2Btn: this.btn(this.state.collage === '2'),
+      stripRef: this.stripRef,
+      tackRef: this.tackRef,
+      isOpen: !!open,
+      openTitle: open ? open.title : '',
+      openMeta: open ? open.meta : '',
+      openSrc: open ? open.src : '',
+      stop: (e) => e.stopPropagation(),
+      open: (e) => {
+        const d = e.currentTarget.dataset;
+        this.setState({ open: { title: d.title, meta: d.meta, src: d.src } });
+      },
+      close: () => this.setState({ open: null }),
+      isLocked: !this.state.unlocked,
+      pw: this.state.pw,
+      pwError: this.state.pwError,
+      onPw: (e) => this.setState({ pw: e.target.value, pwError: false }),
+      submitPw: (e) => {
+        e.preventDefault();
+        const ok = this.state.pw.trim().toLowerCase().replace(/\s+/g, '') === 'social26';
+        if (ok) { try { sessionStorage.setItem('bu_portfolio_unlocked', '1'); } catch (err) {} }
+        this.setState(ok ? { unlocked: true, pw: '' } : { pwError: true });
+      }
+    };
+  }
+}
+</script>
+</body>
+</html>
